@@ -1,16 +1,16 @@
-ul {
-	list-style-type: none;
+.topnav ul {
+	list-style: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: white;
 }
 
-li {
+.topnav li {
 	float: right;
 }
 
-li a {
+.topnav li a {
 	display: block;
 	color: black;
 	text-align: center;
@@ -18,14 +18,14 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover {
+.topnav li a:hover {
 	background-color: gray;
 }
 
 .Google {
 	height: 20%;
 	width: 100%;
-	margin: 20% 0 0 0;
+	margin: 10% 0 0 0;
 	text-align: center;
 
 }
@@ -35,7 +35,7 @@ h1 {
 }
 
 .search1 {
-	height: 5%;
+	height: 2%;
 	width: 100%;
 	display: block;
 	text-align: center;
@@ -45,4 +45,88 @@ input [name=search] {
 	display: inline-block;
 	margin: 0 0 auto auto;
 	text-align: left;
+}
+
+.boxsize {
+	width: 30%;
+	height: 100%;
+}
+
+.searchbutt {
+	height: 75%;
+	width: 100%;
+	margin: 2% 0 0 0;
+	text-align: center;
+
+}
+
+.searchbutt ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+.searchbutt li {
+	display: inline-block;
+}
+
+.searchbutt li a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border: solid 2px black;
+
+}
+
+.searchbutt li a:hover {
+	background-color: gray;
+}
+
+.botnav {
+	height: 90%;
+	width: 100%;
+	margin: 21% 0 0 0;
+	text-align: center;
+	display: inline-block;
+}
+.botnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+
+.botleft {
+	float: left;
+	display: inline-block;
+}
+
+.botnav li a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.botnav li a:hover {
+	background-color: gray;
+}
+
+.botright {
+	float: right;
+	display: inline-block;
+}
+
+.botright li {
+	display: inline-block;
+}
+
+.botleft li {
+	display: inline-block;
 }
